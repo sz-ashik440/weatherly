@@ -17,8 +17,9 @@ class Daily{
 }
 
 class Hourly{
+    var time: Int?
     var temp: Double?
-    var summary: String?
+    var apperentTemp: Double?
 }
 
 class Current{
